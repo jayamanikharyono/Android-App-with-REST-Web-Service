@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="itdel.com.papkwebservice.activity.FasilitasActivity">
+
+
+
+    <ListView
+        android:id="@+id/grdFasilitas"
+        android:layout_width="match_parent"
+        android:layout_height="405dp"
+        android:dividerHeight="2dp"
+        android:verticalSpacing="5dp"
+        android:background="@android:color/white"
+        android:layout_weight="0.50" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonRefreshfasilitas"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:text="Refresh" />
+        <Button
+            android:id="@+id/buttonHomeFasilitas"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="Home" />
+    </LinearLayout>
+
+</LinearLayout>

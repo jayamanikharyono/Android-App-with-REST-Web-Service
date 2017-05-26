@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ListView
+        android:id="@+id/grdKegiatan"
+        android:layout_width="wrap_content"
+        android:layout_height="421dp"
+        android:background="@android:color/white"
+        android:dividerHeight="2dp"
+        android:verticalSpacing="5dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        android:layout_weight="0.74" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonRefreshKegiatan"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:text="Refresh" />
+        <Button
+            android:id="@+id/buttonHomeKegiatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home" />
+    </LinearLayout>
+
+
+</LinearLayout>
+

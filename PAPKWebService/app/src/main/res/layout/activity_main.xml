@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="itdel.com.papkwebservice.activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="6dip"
+        android:contentDescription="LOGO"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="29dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dip"
+        android:layout_marginRight="6dip"
+        android:layout_marginTop="15dp"
+        android:contentDescription="LOGO"
+        android:src="@drawable/logo"
+        android:text="Institut Teknologi Del"
+        android:textAlignment="center"
+        android:textSize="38dip" />
+
+    <Button
+        android:id="@+id/kegiatanButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Kegiatan"
+        android:layout_above="@+id/deksripsiButton"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:id="@+id/deksripsiButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp" />
+
+    <Button
+        android:id="@+id/fasilitasButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Fasilitas"
+        android:layout_above="@+id/deksripsiButton"
+        android:layout_alignEnd="@+id/textView" />
+
+
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="DEL dimaknai sebagai `Pemimpin yang Selangkah Lebih Maju`"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
